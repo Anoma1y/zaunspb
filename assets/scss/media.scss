@@ -1,0 +1,219 @@
+@media only screen and (max-width : 960px) {
+	.advantages {
+		.container {
+            flex-wrap: wrap; 
+            
+			.advantage_box {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 920px) {
+	.products {
+		.products_tabs {
+			.product_list {
+				.product_item {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+	#overlay {
+        padding-top: 15%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+	.header-menu {
+		.main-menu {
+			ul {
+                display: none;
+            }
+        }
+
+		.mobile-menu {
+            display: block;
+            
+			.menu-main-wrap {
+				width: 100%;
+				margin: 0px 0 0 0%;
+                left: 0%;
+            }
+
+			.menu-effect_1.active {
+				width: 80%;
+				opacity: 1 ;
+				visibility: visible ;
+                transition: all 0.6s ease 0s;
+            }
+        }
+    }
+
+	.instruction {
+		.step-by-step {
+			width: 80%;
+			display: flex;
+			justify-content: center;
+            order: 2;
+        }
+
+		.instruction-fences {
+			width: 10%;
+            order: 2;
+        }
+
+		.instruction-image {
+			order: 1;
+			padding: 15px;
+            width: 100%;
+        }
+    }
+
+	footer {
+		.container {
+            flex-wrap: wrap;
+            
+			.footer-left, .footer-right, .footer-center {
+				width: 100%;
+				margin-bottom: 40px;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 600px) {
+	header {
+		.header_info {
+			.container {
+				flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+			.logo {
+				width: 100%;
+                text-align: center;
+                
+				img {
+                    width: 70%;
+                }
+            }
+
+			.header_contact {
+				text-align: center;
+				width: 100%;
+                padding: 5px;
+            }
+        }
+    }
+
+	.products {
+		.products_tabs {
+			.flex-tabs {
+				flex-direction: column;
+				.panel {
+                    border-radius: 0;
+                }
+
+				.tab {
+					color: #000;
+					width: 100%;
+					background-color: #fff;
+                    border-bottom: 1px solid #ccc;
+                    
+					&:last-of-type {
+                        border-bottom: none;
+                    }
+                }
+
+				#tab-one-label {
+                    order: 1;
+                }
+
+				#tab-two-label {
+                    order: 3;
+                }
+
+				#tab-three-label {
+                    order: 5;
+                }
+
+				#tab-four-label {
+                    order: 7;
+                }
+
+				#tab-one-panel {
+                    order: 2;
+                }
+
+				#tab-two-panel {
+                    order: 4;
+                }
+
+				#tab-three-panel {
+                    order: 6;
+                }
+
+				#tab-four-panel {
+                    order: 8;
+                }
+            }
+            
+			#tab-one:checked ~ .tabs #tab-one-label,
+			#tab-two:checked ~ .tabs #tab-two-label,
+			#tab-three:checked ~ .tabs #tab-three-label,
+			#tab-four:checked ~ .tabs #tab-four-label {
+                border-bottom: none;
+            }
+
+			#tab-one:checked ~ .tabs #tab-one-panel,
+			#tab-two:checked ~ .tabs #tab-two-panel,
+			#tab-three:checked ~ .tabs #tab-three-panel,
+			#tab-four:checked ~ .tabs #tab-four-panel {
+                border-bottom: 1px solid #ccc;
+            }
+
+			.product_list {
+				.product_item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+	.fotogallery {
+		.gallery {
+			.tabs {
+				.gallery-tab {
+                    max-height: 70px;
+                }
+            }
+        }
+    }
+
+	.contacts {
+		.container {
+			form {
+				input:not([type="submit"]) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 480px) {
+	.fotogallery {
+		.container {
+            flex-direction: column; 
+        }
+    }
+
+	#overlay {
+        padding-top: 35%;
+    }
+}

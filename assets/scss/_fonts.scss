@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Oswald;
+  src: url('../fonts/Oswald/Oswaldregular.eot');
+  src: url('../fonts/Oswald/Oswaldregular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Oswald/Oswaldregular.woff2') format('woff2'),
+    url('../fonts/Oswald/Oswaldregular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url('../fonts/Oswald/Oswaldbold.eot');
+  src: url('../fonts/Oswald/Oswaldbold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Oswald/Oswaldbold.woff2') format('woff2'),
+    url('../fonts/Oswald/Oswaldbold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('../fonts/OpenSans/OpenSans.eot');
+  src: url('../fonts/OpenSans/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans/OpenSans.woff2') format('woff2'),
+    url('../fonts/OpenSans/OpenSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('../fonts/OpenSans/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style : normal;
+         src : url("../fonts/FontAwesome/font-awesome.eot") format("embedded-opentype"),
+               url("../fonts/FontAwesome/font-awesome.woff2") format("woff2"),
+               url("../fonts/FontAwesome/font-awesome.woff") format("woff"),
+               url("../fonts/FontAwesome/font-awesome.ttf") format("truetype"),
+               url("../fonts/FontAwesome/font-awesome.svg?#fontawesomeregular") format("svg");
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "FontAwesome";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {  
+  content: '\e800';
+}
+
+.icon-location:before {  
+  content: '\e801';
+}
+
+.icon-mail-alt:before {  
+  content: '\f0e0';
+}
+
+.icon-instagram:before {  
+  content: '\f16d';
+}
+
+.icon-vkontakte:before {  
+  content: '\f189';
+}
+
+.icon-telegram:before {  
+  content: '\f2c6';
+}

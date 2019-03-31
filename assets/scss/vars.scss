@@ -1,0 +1,82 @@
+@import "vars/breakpoints";
+@import "vars/colors";
+
+
+$main-font-family: 'Oswald', 'Open Sans', sans-serif;
+$font-family-open-sans: 'Open Sans', sans-serif;
+$default-fontsize: 16px;
+
+// //Section title
+$section-title-font-family: $main-font-family;
+$section-title-line-width: 70px;
+$section-title-line-height: 2px;
+$section-title-line-margin: 8px auto;
+$section-title-line-border-radius: 30px;
+$section-title-line-bgc: rgba(0,0,0,1);
+$section-title-h1-font-size: 21px;
+$section-title-h1-font-weight: 600;
+$section-title-p-font-size: 16px;
+//Header
+$menu-padding-top-bottom: 15px;
+$menu-border-size: 5px;
+$menu-font-size: 16px;
+$mobile-menu-height: (2 * $menu-padding-top-bottom) + (2 * $menu-border-size) + 24px;
+$mobile-trigger-height: 8px;
+$header-menu-height: $mobile-menu-height + 2px;
+$header-menu-bgc: #88BE60;
+$transparent-color: rgba(15, 17, 23, 0.7);
+$primary-color: #0f1117;
+$base-font-size: 16px;
+$ui-text-light-color: #fff;
+$ui-text-transform: uppercase;
+$easeInCubic: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+
+//Advantages
+$advantages-image-opacity: .2;
+$advantages-image-bgc: rgba(84,209,84,$advantages-image-opacity);
+$advantages-title-font-size: 17px;
+$advantages-description-font-size: 15px;
+$advantages-font-color: #828181;
+$advantages-button-bgc: rgba(84,209,84,1);
+$advantages-button-color: rgba(255,255,255,1);
+$advantages-button-border-radius: 50px;
+
+$last-work-bgc: #ffffff;
+
+//Products
+$products-bgc: rgba(84,209,84,1);
+$products-section-color: #ECECEC;
+$products-section-bgc: #ECECEC;
+$products-tab-bgc: rgba(84,209,84,1);
+$products-tab-color: rgba(255,255,255,1);
+$products-tab-color-amount: 100;
+$products-panel-bgc: rgba(255,255,255,1);
+$products-tab-label-color: rgba(0,0,0,1);
+$products-tab-label-bgc: rgba(255,255,255,1);
+$product-list-box-shadow:  0 0 5px rgba(84,209,84,.51);
+$product-line-after-size-bgc: #333333;
+$product-price-color: #69be28;
+//Contacts
+$contacts-map-hover-shadow: rgba(0,150,0,.1);
+$contacts-submit-font-size: 20px;
+$contacts-bgc-submit: rgba(84,209,84,1);
+/**********Footer**********/
+//Footer font
+$footer-font-family: "Oswald", "Open Sans", sans-serif;
+//Footer font size
+$footer-logo-size: 36px;
+$footer-copyright-size: 14px;
+$footer-about-size: 14px;
+$footer-about-title-size: 18px;
+//Footer letter spacing
+$footer-logo-spacing: 4px;
+//Footer font color
+$footer-color-logo: rgba(255,255,255,1);
+$footer-color-logo-end: rgba(84,209,84,1);
+$footer-color-text-important: rgba(84,209,84,1);
+$footer-color-text: rgba(255,255,255,1);
+$footer-color-link: rgba(255,255,255,1);
+//Footer bacgkround-color
+$footer-bgc-main:  #2E2E2E;
+$footer-bgc-icons: #33383b;
+$footer-bgc-icons-hover: 20;
